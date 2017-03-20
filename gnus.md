@@ -37,6 +37,12 @@ These are my settings for receiving and sending mail.
 (gnus-demon-add-handler 'gnus-demon-scan-news 10 t) ;; this does a call to gnus-group-get-new-news
 ```
 
+In turn, to send mail the (`~/.authinfo`) file is configured as follows:
+
+```
+machine smtp.mail.yahoo.com login alexandre.loures@ymail.com password mypasswordsecret
+```
+
 ## Signature
 
 This is my file (`~/.signature`) to add a signature to the end of the mail.
