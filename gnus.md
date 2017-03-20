@@ -34,7 +34,8 @@ These are my settings for receiving and sending mail.
 
 (setq gnus-signature-file)
 
-(gnus-demon-add-handler 'gnus-demon-scan-news 10 t) ;; this does a call to gnus-group-get-new-news´´´
+(gnus-demon-add-handler 'gnus-demon-scan-news 10 t) ;; this does a call to gnus-group-get-new-news
+```
 
 ## Signature
 
@@ -46,7 +47,8 @@ Department of Economics
 Federal University of Paraiba
 Center for Applied Social Sciences
 www.ccsa.ufpb.br/ppge
-www.rodriguesloures.com´´´
+www.rodriguesloures.com
+```
 
 ## Autocomplete the address of the mails
 
@@ -59,4 +61,5 @@ alias arl "Loures <none@example.com>"
 
 alias father "Father <none@example.net>"
 
-alias mother "Mother <none@example.org>"´´´
+alias mother "Mother <none@example.org>"
+```
