@@ -1,8 +1,8 @@
-# Customizing  Gnus
+# Customizing  Gnus to work Yahoo mail
 
-## Yahoo
+## These are my settings for receiving and sending mail.
 
-These are my settings for receiving and sending mail.
+To receive mail, the (`~/.gnus.el`) file is configured as follows:
 
 ```
 (setq user-mail-address	"alexandre.loures@ymail.com"
