@@ -1,6 +1,6 @@
-## Customizing  Gnus
+# Customizing  Gnus
 
-# Yahoo
+## Yahoo
 
 These are my settings for receiving and sending mail.
 
@@ -34,9 +34,9 @@ These are my settings for receiving and sending mail.
 
 (setq gnus-signature-file)
 
-(gnus-demon-add-handler 'gnus-demon-scan-news 10 t) ;; this does a call to gnus-group-get-new-news```
+(gnus-demon-add-handler 'gnus-demon-scan-news 10 t) ;; this does a call to gnus-group-get-new-news´´´
 
-# Signature
+## Signature
 
 This is my file (`~/.signature`) to add a signature to the end of the mail.
 
@@ -46,9 +46,9 @@ Department of Economics
 Federal University of Paraiba
 Center for Applied Social Sciences
 www.ccsa.ufpb.br/ppge
-www.rodriguesloures.com```
+www.rodriguesloures.com´´´
 
-# Autocomplete the address of the mails
+## Autocomplete the address of the mails
 
 This is my file (`~/.mailrc`) to autocomplete the address of the mails. Once you have the (`~/. mailrc`) file just put the alias (To; CC and CCo) and type `spc` so that the mail is automatically completed. 
 
@@ -59,4 +59,4 @@ alias arl "Loures <none@example.com>"
 
 alias father "Father <none@example.net>"
 
-alias mother "Mother <none@example.org>"```
+alias mother "Mother <none@example.org>"´´´
