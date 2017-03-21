@@ -32,4 +32,4 @@
 #+END_SRC
 
 
-Isto é apenas um teste (~~/.mailrc~) para destacar um código.
+Isto é apenas um teste (=~/.mailrc=) para destacar um código.
