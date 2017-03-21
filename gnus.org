@@ -86,6 +86,6 @@ alias mother "Mother <none@example.org>"
 
 =S r=            Reply to the author of the current article
 
-=S w=            Reply that goes out to all people listed in the *To* and *Cc*
+=S w=            Reply that goes out to all people listed in the */To/* and */Cc/*
 
 
