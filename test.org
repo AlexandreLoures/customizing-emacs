@@ -1,0 +1,35 @@
+#+BEGIN_SRC
+(setq user-mail-address	"alexandre.loures@ymail.com"
+      user-full-name	"Alexandre Loures")
+
+(setq gnus-select-method '(nntp "news.gwene.org"))
+(add-to-list 'gnus-secondary-select-methods '(nnml ""))
+
+(setq mail-sources '((pop :server "pop.mail.yahoo.com"
+			  :port 995
+                          :user "alexandre.loures@ymail.com"
+                          :password "mypasswordsecret"
+			  :leave 14
+			  :stream ssl)))
+
+(setq send-mail-function		'smtpmail-send-it
+      message-send-mail-function	'smtpmail-send-it
+      smtpmail-smtp-server		"smtp.mail.yahoo.com"
+      smtpmail-stream-type              'ssl
+      smtpmail-smtp-service             465)
+
+(setq nnmail-split-methods '(
+			     ("SAS" "^From:.*marketingbrasil@sas.com")
+			     ("Stata" "^From:.*service@stata.com")
+			     ("ResearchGate" "^From:.*no-reply@researchgatemail.net")
+			     ("FSF" "^From:.*info@fsf.org")
+			     ("Other" "")
+			     ))
+
+(setq gnus-signature-file)
+
+(gnus-demon-add-handler 'gnus-demon-scan-news 10 t) ;; this does a call to gnus-group-get-new-news
+#+END_SRC
+
+
+Isto é apenas um teste (~~/.mailrc~) para destacar um código.
