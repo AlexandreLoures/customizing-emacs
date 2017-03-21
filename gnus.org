@@ -29,6 +29,7 @@ To receive mail, the (=~/.gnus.el=) file is configured as follows:
 			     ("Stata" "^From:.*service@stata.com")
 			     ("ResearchGate" "^From:.*no-reply@researchgatemail.net")
 			     ("FSF" "^From:.*info@fsf.org")
+                             ("SPAM" "^From:.*noreply@facebookmail.com")
 			     ("Other" "")
 			     ))
 
