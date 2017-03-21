@@ -1,4 +1,6 @@
-#+TITLE: Customizing Gnus to work Yahoo mail @@latex:\\@@ These are my settings for receiving and sending mail.
+#+TITLE: Customizing Gnus to work Yahoo mail 
+
+#+Author: These are my settings for receiving and sending mail.
 
 To receive mail, the (=~/.gnus.el=) file is configured as follows:
 
