@@ -1,4 +1,6 @@
-#+TITLE: Customizing Gnus to work Yahoo mail 
+* Customizing Gnus to work Yahoo mail
+
+** These are my settings for receiving and sending mail.
 
 #+Author: These are my settings for receiving and sending mail.
 
