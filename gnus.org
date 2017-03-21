@@ -70,3 +70,18 @@ alias father "Father <none@example.net>"
 
 alias mother "Mother <none@example.org>"
 #+END_SRC
+** Some commands:
+
+=ZZ=             From inside a group go back to the buffer group
+
+=C-c C-f C-c=    Show a Cc
+
+=C-c C-f C-b=    Show a Bcc
+
+=L=              Show all groups (with read and unread emails)
+
+=C-u RET=        Enter a group and show all emails (read and unread)
+
+=C-u M-g=        Within a group shows all emails (read and unread)
+
+
