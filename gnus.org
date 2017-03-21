@@ -2,8 +2,6 @@
 
 ** These are my settings for receiving and sending mail.
 
-#+Author: These are my settings for receiving and sending mail.
-
 To receive mail, the (=~/.gnus.el=) file is configured as follows:
 
 #+BEGIN_SRC
@@ -45,7 +43,7 @@ In turn, to send mail the (=~/.authinfo=) file is configured as follows:
 machine smtp.mail.yahoo.com login alexandre.loures@ymail.com password mypasswordsecret
 #+END_SRC
 
-## Signature
+** Signature
 
 This is my file (=~/.signature=) to add a signature to the end of the mail.
 
@@ -58,7 +56,7 @@ www.ccsa.ufpb.br/ppge
 www.rodriguesloures.com
 #+END_SRC
 
-## Autocomplete the address of the mails
+** Autocomplete the address of the mails
 
 This is my file (=~/.mailrc=) to autocomplete the address of the mails. Once you have the (=~/. mailrc=) file just put the alias (To; CC and CCo) and type =spc= so that the mail is automatically completed. 
 
