@@ -58,7 +58,7 @@ www.rodriguesloures.com
 
 ** Autocomplete the address of the mails
 
-This is my file (=~/.mailrc=) to autocomplete the address of the mails. Once you have the (=~/. mailrc=) file just put the alias (To; CC and CCo) and type =spc= so that the mail is automatically completed. 
+This is my file (=~/.mailrc=) to autocomplete the address of the mails. Once you have the (=~/.mailrc=) file just put the alias (To; CC and CCo) and type =spc= so that the mail is automatically completed. 
 
 #+BEGIN_SRC
 alias loures "Alexandre Loures <none@example.com>"
