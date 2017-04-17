@@ -36,6 +36,13 @@ To receive mail, the (=~/.gnus.el=) file is configured as follows:
 (setq gnus-signature-file)
 
 (gnus-demon-add-handler 'gnus-demon-scan-news 10 t) ;; this does a call to gnus-group-get-new-news
+
+;; defining the number of columns (the width) of the body of the email as well as the layout of the text (justified), that is, formatting the e-mail appearance
+
+(defun my-message-mode-setup ()
+  (setq fill-column 180)
+  (turn-on-auto-fill))
+(add-hook 'message-mode-hook 'my-message-mode-setup)
 #+END_SRC
 
 In turn, to send mail the (=~/.authinfo=) file is configured as follows:
