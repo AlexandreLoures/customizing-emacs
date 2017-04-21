@@ -60,8 +60,8 @@ This is my file (=~/.signature=) to add a signature to the end of the mail.
 
 #+BEGIN_SRC
 Alexandre Loures
+Department of Rural Economy
 Federal University of Vicosa
-Department of Rural Economic
 www.economia-aplicada.ufv.br
 www.rodriguesloures.com
 #+END_SRC
