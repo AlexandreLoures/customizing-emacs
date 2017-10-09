@@ -46,6 +46,20 @@ To receive mail, the (=~/.gnus.el=) file is configured as follows:
   (setq fill-column 180)
   (turn-on-auto-fill))
 (add-hook 'message-mode-hook 'my-message-mode-setup)
+
+
+;;; the following settings is for Gnus to notify you of receiving new mail
+;;; you must first place the file avaible in: 'https://www.emacswiki.org/emacs/download/gnus-notify.el' where Gnus can locate it
+;;; site where I got help: 'https://stackoverflow.com/questions/1053245/new-mail-notifications-in-gnus-for-emacs'
+
+(setq gnus-parameters
+      '(("INBOX"
+	 (gnus-use-adaptive-scoring nil)
+	 (gnus-use-scoring nil)
+	 (visible . t)
+	 (display . all)
+	 (modeline-notify . t)
+	 )))
 #+END_SRC
 
 In turn, to send mail the (=~/.authinfo=) file is configured as follows:
