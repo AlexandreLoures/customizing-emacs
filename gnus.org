@@ -47,9 +47,9 @@ To receive mail, the (=~/.gnus.el=) file is configured as follows:
   (turn-on-auto-fill))
 (add-hook 'message-mode-hook 'my-message-mode-setup)
 
-
 ;;; the following settings is for Gnus to notify you of receiving new mail
-;;; you must first place the file avaible in: 'https://www.emacswiki.org/emacs/download/gnus-notify.el' where Gnus can locate it
+;;; you must first place the file avaible in: 'https://www.emacswiki.org/emacs/download/gnus-notify.el' where 
+;;; Gnus can locate it
 ;;; site where I got help: 'https://stackoverflow.com/questions/1053245/new-mail-notifications-in-gnus-for-emacs'
 
 (setq gnus-parameters
