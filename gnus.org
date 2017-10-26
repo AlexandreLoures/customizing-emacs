@@ -95,7 +95,7 @@ alias mother "Mother <none@example.org>"
 #+END_SRC
 ** Some commands:
 
-=ZZ=             From inside a group go back to the buffer group
+=ZZ= or =q=      From inside a group go back to the buffer group
 
 =C-c C-f C-c=    Show a Cc
 
@@ -111,4 +111,10 @@ alias mother "Mother <none@example.org>"
 
 =S w=            Reply that goes out to all people listed in the *To* and *Cc*
 
+=C-w=            Emacs Name: kill (Common Name: Cut - C-x)
 
+=M-w=            Emacs Name: kill-ring-save (Common Name: Copy - C-c)
+
+=C-y=            Emacs Name: yank (Common Name: Paste - C-v)
+
+=M-y=            Emacs Name: yank next
