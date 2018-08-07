@@ -12,16 +12,21 @@ The following are the customizations of the =.emacs= file. To open this file use
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
    ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
- '(column-number-mode t)  ;; Setting to display the number of columns at the bottom, along with the line number - All (line, column)
+ '(column-number-mode t)
  '(custom-enabled-themes (quote (wombat)))
- '(global-linum-mode t)  ;; Setting to display the number of rows in the left corner
- '(initial-frame-alist (quote ((fullscreen . maximized))))  ;; Setting fullscreen or maximized mode
- )
+ '(custom-safe-themes
+   (quote
+    ("5f27195e3f4b85ac50c1e2fac080f0dd6535440891c54fcfa62cdcefedf56b1b" "2925ed246fb757da0e8784ecf03b9523bccd8b7996464e587b081037e0e98001" default)))
+ '(global-linum-mode t)
+ '(initial-frame-alist (quote ((fullscreen . maximized))))
+ '(package-archives
+   (quote
+    (("gnu" . "http://elpa.gnu.org/packages/")
+     ("melpa" . "https://stable.melpa.org/packages/")))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 98 :width normal :foundry "ou
-tline" :family "Courier New")))))
+ '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 98 :width normal :foundry "outline" :family "Courier New")))))
 #+END_SRC
