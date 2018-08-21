@@ -118,3 +118,5 @@ alias mother "Mother <none@example.org>"
 =C-y=            Emacs Name: yank (Common Name: Paste - C-v)
 
 =M-y=            Emacs Name: yank next
+
+=C-x h C-w=      Selects the whole buffer and kills the selection
